@@ -22,4 +22,4 @@ jobs:
       - name: 'Build Inventory Image'
         run: |
           docker build . --tag ghcr.io/0xluk/qubic-api-sidecar:${{github.ref_name}}
-          docker push ghcr.io/qubic/qubic-api-sidecar:${{github.ref_name}}
+          docker push ghcr.io/0xluk/qubic-api-sidecar:${{github.ref_name}}
